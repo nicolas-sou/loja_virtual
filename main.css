@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1,h2,h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    ;
+
+}
+
+header {
+    background-color: rgb(10, 116, 236);
+    padding: 16px 0;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: #fff;
+    font-size: 18px;
+}
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+#loja .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#loja .container {
+    align-items: flex-start;
+}
+
+#loja {
+    padding: 60px 0;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#loja img {
+    margin-right: 32px;
+    max-width: 600px;
+}
+
+h2 {
+    color: rgb(10,116,236);
+    padding-bottom: 30px ;
+    border-bottom: 3px solid rgb(10, 116, 236);
+    margin-bottom: 56px;
+}
+
+#lista-produtos li {
+    list-style: none;
+    max-width: 30%;
+    margin-right: 30px;
+}
+
+
+#lista-produtos li img {
+    max-width: 100%;
+
+}
+
+#lista-produtos li h3 {
+    margin: 16px 0;
+}
+
+#lista-produtos li p {
+    margin: 16px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(10, 116, 236);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen  and (max-width: 640px) {
+    .container {
+        display: block;
+    }
+
+    .container {
+        max-width: 90%;
+}
+
+
+#loja .container {
+    display: block;
+}
+
+#loja {
+    padding: 66px 0;
+}
+
+.container-flex {
+    display: inline-block;
+    width: 1800px;
+}
+
+#loja img {
+    width: 99%;
+}
+
+h2 {
+    color: rgb(10,116,236);
+    padding-top: 40px ;
+    border-bottom: 3px solid rgb(10, 116, 236);
+    margin-bottom: 60px;
+}
+
+#lista-produtos li img {
+    max-width: 100%;
+    margin: 30px 0;
+    
+}
+
+}
+
+@media screen and (min-width: 641px) and (max-width:1023px) {  
+    .container {
+        max-width: 90%;
+    }
+
+    .container {
+        display: block;
+    }
+
+    #loja img {
+        max-width: 95%;
+    }
+
+    #loja .container {
+        display: block;
+    }
+
+    h2 {
+        color: rgb(10,116,236);
+        padding-top: 40px ;
+        border-bottom: 3px solid rgb(10, 116, 236);
+        margin-bottom: 60px;
+    }
+
+    .container-flex{
+        font-size: 1.5em;
+    }
+}
