@@ -139,7 +139,7 @@ h2 {
 
 }
 
-@media screen and (min-width: 641px) and (max-width:1023px) {  
+@media screen and (min-width: 768px) and (max-width:1023px) {  
     .container {
         max-width: 90%;
     }
@@ -149,7 +149,7 @@ h2 {
     }
 
     #loja img {
-        max-width: 95%;
+        max-width: 100%;
     }
 
     #loja .container {
@@ -163,7 +163,18 @@ h2 {
         margin-bottom: 60px;
     }
 
-    .container-flex{
-        font-size: 1.5em;
+    .lista-tenis{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 8px;
+        grid-row-gap: 1em;
+    }
+
+    .lista-tenis {
+        width: 100%;
+    }
+
+    .lista-tenis {
+        max-width: 100%;
     }
 }
