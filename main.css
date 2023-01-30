@@ -177,3 +177,25 @@ h2 {
         max-width: 100%;
     }
 }
+
+@media screen  and (max-width: 767px){
+    .container {
+        max-width: 90%;
+    }
+
+    .container {
+        display: block;
+    }
+
+    #loja .container {
+        display: block;
+    }
+
+    h2 {
+        color: rgb(10,116,236);
+        padding-top: 40px ;
+        border-bottom: 3px solid rgb(10, 116, 236);
+        margin-bottom: 60px;
+    }
+
+}
